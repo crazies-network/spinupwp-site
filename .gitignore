@@ -1,0 +1,10 @@
+# Dotfiles
+.env
+
+# Package Managers
+vendor
+
+# Application Specific
+web/wp
+web/wp-content/plugins/*
+web/wp-content/themes/*

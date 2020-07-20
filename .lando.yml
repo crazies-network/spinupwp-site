@@ -1,0 +1,14 @@
+name: spinup-skeleton
+
+recipe: wordpress
+
+config:
+  webroot: web
+  php: 7.4
+  ssl: true
+  via: nginx
+  xdebug: true
+  conf:
+    php: .vscode/php.ini
+  run:
+    - composer install
