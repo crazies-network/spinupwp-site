@@ -55,6 +55,14 @@ define( 'WP_CACHE_KEY_SALT', $_ENV['WP_CACHE_KEY_SALT'] );
 define( 'WP_HOME',    $_ENV['WP_HOME'] );
 define( 'WP_SITEURL', $_ENV['WP_SITEURL'] );
 
+/**
+ * WordPress Content Directory Constants
+ *
+ * @link https://codex.wordpress.org/Determining_Plugin_and_Content_Directories#Constants
+ */
+define( 'WP_CONTENT_DIR', __DIR__ . '/wp-content' );
+define( 'WP_CONTENT_URL', $_ENV['WP_HOME'] . '/wp-content' );
+
 // Absolute path to the Application directory.
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
