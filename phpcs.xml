@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="SpinupWP">
+    <description>Coding standards for SpinupWP sites.</description>
+
+    <arg name="extensions" value="php" />
+    <arg name="colors" />
+    <arg value="s" />
+
+    <rule ref="Juko">
+        <exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+    </rule>
+</ruleset>

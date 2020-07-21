@@ -30,6 +30,7 @@
         "wpackagist-theme/twentytwenty": "^1.4"
     },
     "require-dev": {
+        "juko-services/php-coding-standards": "^0.2.0",
         "wpackagist-plugin/query-monitor": "^3.6"
     },
     "scripts": {},
