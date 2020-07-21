@@ -6,5 +6,6 @@ vendor
 
 # Application Specific
 web/wp
+web/wp-content/uploads
 web/wp-content/plugins/*
 web/wp-content/themes/*
